@@ -1,0 +1,54 @@
+header{
+    
+    color: brown;
+    margin-top: 0;
+    
+    
+}
+
+.mainTitle{
+    display: flex;
+    text-align: center;
+    
+}
+.mainTitle h1{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    color: azure;
+    font-size: 5vw;
+} 
+body{
+    background-color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    }
+body .mainImg{
+        width:35%;
+        height:10%;
+        margin-top: 2%;
+        margin-bottom: 5vh;
+        border-radius: 5%;
+        box-shadow:rgb(88, 86, 86) 0.5vh 0.5vw 4em;
+    }
+body .liste_recettes{
+    background-color: rgb(45, 47, 49);
+    border-radius: 10%;
+    width: 5vw;
+    height: 15vh;
+    position: absolute;
+    left :10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+body .lien_recette{
+    margin-top: 2vh;
+    font-size: 1vw;
+    
+}
