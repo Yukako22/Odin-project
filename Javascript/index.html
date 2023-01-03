@@ -7,16 +7,49 @@
 </head>
 
 <body>
-  
+  <button>Be gentle sempai UwU</button>
+
+  <p id="demo"></p>
   <script>
     
-    let user = "Rose";
+    /*let user = "Rose";
 
     let item =  (price =20, amount = 3 );
     let item2 =  (price2 =27, amount2 = 2);
     
     let panier = ((+price * +amount + +price2 * +amount2)*1.065)*1.075;
-    alert(+panier);
+    
+    const string = "Total de l'achat :  ";
+    console.log(string);
+    const badString = string;
+    console.log(badString);
+    alert(string +panier);*/
+
+
+
+    /*const button = document.querySelector("button");
+
+    function greet() {
+      const name = prompt("Que desire-tu ?");
+      const price = Number(name);
+      alert(`Hello ${name}, nice to see you!`);
+    }
+
+    button.addEventListener("click", greet);*/
+
+    
+
+
+if (new Date().getHours() > 11) {
+  document.getElementById("demo").innerHTML = "Good day!";
+}else if(new Date().getHours() <= 11 & new Date().getHours() >= 5) {
+  document.getElementById("demo").innerHTML = "Good morning!";
+}
+else if (new Date().getHours() < 21 & new Date().getHours() <= 5){
+  document.getElementById("demo").innerHTML = "Good night";
+}
+
+
   </script>
 
 </body>
